@@ -20,7 +20,7 @@ const SimpleInput = (props) => {
     valueChangeHandler: emailChangeHandler,
     inputBlurHandler: emailBlurHandler,
     reset: resetEmailInput,
-  } = useInput((value) => value.trim() !== "" && value.trim().includes("@"));
+  } = useInput((value) => value.trim().includes("@"));
 
   //Validate Form
 
