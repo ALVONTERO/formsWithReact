@@ -1,6 +1,7 @@
 import useInput from "../hooks/use-input";
 
 const SimpleInput = (props) => {
+
   //Manage State of Name
 
   const {
@@ -32,10 +33,6 @@ const SimpleInput = (props) => {
 
   const formSubmissionHandler = (event) => {
     event.preventDefault();
-
-    if (!enteredNameIsValid) {
-      return;
-    }
 
     console.log(enteredName);
 
